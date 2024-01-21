@@ -1,5 +1,5 @@
-3 print "Enter grid width (max 40):";: input w
-4 print "Enter grid height (max 25):";: input h
+3 print "enter grid width (max 40):";: input w
+4 print "enter grid height (max 25):";: input h
 5 if w>40 then w=40
 6 if h>25 then h=25
 7 print chr$(147)
@@ -46,7 +46,7 @@
 237      print "value b: "; b(x,y)
 238      print "value a: "; a(x,y)
 239      print "poke address: "; 1024+(y-1)*40+x; " value: "; a(x,y)*160
-240      poke 1024 + sc + x + (sr + y - 1) * 40, a(x, y) * 160
+240      poke 1024 + sc% + x + (sr% + y - 1) * 40, a(x, y) * 160
 250    next y
 260  next x
 270 next it
