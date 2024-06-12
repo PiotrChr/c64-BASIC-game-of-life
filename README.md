@@ -1,6 +1,6 @@
 # C64 Game of Life
 
-This BASIC program runs Conway's Game of Life on a Commodore 64 computer. It allows users to define the size of the game grid, initializes the grid with random live or dead cells, and simulates the evolution of the grid according to the classic rules of the game.
+This BASIC program runs Conway's Game of Life on a Commodore 64 computer, featuring a dynamic loading bar that visually indicates progress during each simulation cycle. The user can define the grid size, and the program will initialize and update the grid according to the rules of Conway's Game of Life, displaying a loading bar that progresses with each iteration.
 
 ## Prerequisites
 
